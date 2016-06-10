@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A910099F1CF3471C00B167DC /* display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A910098D1CF3471C00B167DC /* display.cpp */; };
+		A91009A01CF3471C00B167DC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A91009921CF3471C00B167DC /* main.cpp */; };
+		A91009A11CF3471C00B167DC /* readfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A91009941CF3471C00B167DC /* readfile.cpp */; };
+		A91009A21CF3471C00B167DC /* shaders.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A91009981CF3471C00B167DC /* shaders.cpp */; };
+		A91009A31CF3471C00B167DC /* Transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A910099B1CF3471C00B167DC /* Transform.cpp */; };
+		A91009A51CF3480600B167DC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91009A41CF3480600B167DC /* OpenGL.framework */; };
+		A91009A71CF3480C00B167DC /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91009A61CF3480C00B167DC /* GLUT.framework */; };
+		A91009A91CF348A200B167DC /* libfreeimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A91009A81CF348A200B167DC /* libfreeimage.a */; };
+		A91009AC1CF34D6C00B167DC /* grader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A91009AB1CF34D6C00B167DC /* grader.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A91009801CF3453100B167DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A91009821CF3453100B167DC /* Homework2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework2; sourceTree = BUILT_PRODUCTS_DIR; };
+		A910098C1CF3471C00B167DC /* demo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = demo.txt; sourceTree = "<group>"; };
+		A910098D1CF3471C00B167DC /* display.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = display.cpp; sourceTree = "<group>"; };
+		A910098E1CF3471C00B167DC /* glm-0.9.2.7 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "glm-0.9.2.7"; sourceTree = "<group>"; };
+		A910098F1CF3471C00B167DC /* hw1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hw1.txt; sourceTree = "<group>"; };
+		A91009901CF3471C00B167DC /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		A91009911CF3471C00B167DC /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		A91009921CF3471C00B167DC /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A91009931CF3471C00B167DC /* osxlib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = osxlib; sourceTree = "<group>"; };
+		A91009941CF3471C00B167DC /* readfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = readfile.cpp; sourceTree = "<group>"; };
+		A91009951CF3471C00B167DC /* readfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readfile.h; sourceTree = "<group>"; };
+		A91009961CF3471C00B167DC /* scene.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scene.txt; sourceTree = "<group>"; };
+		A91009971CF3471C00B167DC /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shaders; sourceTree = "<group>"; };
+		A91009981CF3471C00B167DC /* shaders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shaders.cpp; sourceTree = "<group>"; };
+		A91009991CF3471C00B167DC /* shaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shaders.h; sourceTree = "<group>"; };
+		A910099A1CF3471C00B167DC /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		A910099B1CF3471C00B167DC /* Transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transform.cpp; sourceTree = "<group>"; };
+		A910099C1CF3471C00B167DC /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		A910099D1CF3471C00B167DC /* UCSD */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UCSD; sourceTree = "<group>"; };
+		A910099E1CF3471C00B167DC /* variables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = variables.h; sourceTree = "<group>"; };
+		A91009A41CF3480600B167DC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		A91009A61CF3480C00B167DC /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		A91009A81CF348A200B167DC /* libfreeimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreeimage.a; path = Homework2/osxlib/libfreeimage.a; sourceTree = "<group>"; };
+		A91009AB1CF34D6C00B167DC /* grader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = grader.cpp; path = Homework2/UCSD/grader.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A910097F1CF3453100B167DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91009A91CF348A200B167DC /* libfreeimage.a in Frameworks */,
+				A91009A71CF3480C00B167DC /* GLUT.framework in Frameworks */,
+				A91009A51CF3480600B167DC /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A91009791CF3453100B167DC = {
+			isa = PBXGroup;
+			children = (
+				A91009AB1CF34D6C00B167DC /* grader.cpp */,
+				A91009A81CF348A200B167DC /* libfreeimage.a */,
+				A91009A61CF3480C00B167DC /* GLUT.framework */,
+				A91009A41CF3480600B167DC /* OpenGL.framework */,
+				A91009841CF3453100B167DC /* Homework2 */,
+				A91009831CF3453100B167DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A91009831CF3453100B167DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91009821CF3453100B167DC /* Homework2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A91009841CF3453100B167DC /* Homework2 */ = {
+			isa = PBXGroup;
+			children = (
+				A910098C1CF3471C00B167DC /* demo.txt */,
+				A910098D1CF3471C00B167DC /* display.cpp */,
+				A910098E1CF3471C00B167DC /* glm-0.9.2.7 */,
+				A910098F1CF3471C00B167DC /* hw1.txt */,
+				A91009901CF3471C00B167DC /* include */,
+				A91009911CF3471C00B167DC /* input.txt */,
+				A91009921CF3471C00B167DC /* main.cpp */,
+				A91009931CF3471C00B167DC /* osxlib */,
+				A91009941CF3471C00B167DC /* readfile.cpp */,
+				A91009951CF3471C00B167DC /* readfile.h */,
+				A91009961CF3471C00B167DC /* scene.txt */,
+				A91009971CF3471C00B167DC /* shaders */,
+				A91009981CF3471C00B167DC /* shaders.cpp */,
+				A91009991CF3471C00B167DC /* shaders.h */,
+				A910099A1CF3471C00B167DC /* test.txt */,
+				A910099B1CF3471C00B167DC /* Transform.cpp */,
+				A910099C1CF3471C00B167DC /* Transform.h */,
+				A910099D1CF3471C00B167DC /* UCSD */,
+				A910099E1CF3471C00B167DC /* variables.h */,
+			);
+			path = Homework2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91009811CF3453100B167DC /* Homework2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91009891CF3453100B167DC /* Build configuration list for PBXNativeTarget "Homework2" */;
+			buildPhases = (
+				A910097E1CF3453100B167DC /* Sources */,
+				A910097F1CF3453100B167DC /* Frameworks */,
+				A91009801CF3453100B167DC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework2;
+			productName = Homework2;
+			productReference = A91009821CF3453100B167DC /* Homework2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A910097A1CF3453100B167DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Vinayak Patel";
+				TargetAttributes = {
+					A91009811CF3453100B167DC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A910097D1CF3453100B167DC /* Build configuration list for PBXProject "Homework2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A91009791CF3453100B167DC;
+			productRefGroup = A91009831CF3453100B167DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91009811CF3453100B167DC /* Homework2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A910097E1CF3453100B167DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91009AC1CF34D6C00B167DC /* grader.cpp in Sources */,
+				A91009A31CF3471C00B167DC /* Transform.cpp in Sources */,
+				A91009A01CF3471C00B167DC /* main.cpp in Sources */,
+				A91009A11CF3471C00B167DC /* readfile.cpp in Sources */,
+				A91009A21CF3471C00B167DC /* shaders.cpp in Sources */,
+				A910099F1CF3471C00B167DC /* display.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A91009871CF3453100B167DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A91009881CF3453100B167DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A910098A1CF3453100B167DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Homework2/osxlib/**",
+					"$(PROJECT_DIR)/Homework2/osxlib",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Homework2/include/** $(SRCROOT)/Homework2/**";
+			};
+			name = Debug;
+		};
+		A910098B1CF3453100B167DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Homework2/osxlib/**",
+					"$(PROJECT_DIR)/Homework2/osxlib",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Homework2/include/** $(SRCROOT)/Homework2/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A910097D1CF3453100B167DC /* Build configuration list for PBXProject "Homework2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91009871CF3453100B167DC /* Debug */,
+				A91009881CF3453100B167DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A91009891CF3453100B167DC /* Build configuration list for PBXNativeTarget "Homework2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A910098A1CF3453100B167DC /* Debug */,
+				A910098B1CF3453100B167DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A910097A1CF3453100B167DC /* Project object */;
+}
